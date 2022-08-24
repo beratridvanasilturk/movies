@@ -48,9 +48,10 @@ extension FilmsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedItem = response?.results?[indexPath.row]
         let selectedId = selectedItem?.id
-        let destination = DetailViewController()
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let destination = storyBoard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         destination.filmId = selectedId
-        show(destination, sender: nil)
+        self.navigationController?.pushViewController(destination, animated: true)
         
         print(selectedId)
     }
