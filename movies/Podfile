@@ -9,5 +9,7 @@ target 'movies' do
 
 pod 'Kingfisher', '~> 7.0'
 
+pod 'Alamofire'
+
 
 end

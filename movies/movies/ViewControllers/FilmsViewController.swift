@@ -5,6 +5,7 @@
 //  Created by Berat Rıdvan Asiltürk on 24.08.2022.
 //
 
+import Alamofire
 import UIKit
 import Kingfisher
 

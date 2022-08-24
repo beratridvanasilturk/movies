@@ -176,3 +176,95 @@ movies/Pods/Target Support Files/Pods-movies/Pods-movies.debug.xcconfig
 movies/Pods/Target Support Files/Pods-movies/Pods-movies.modulemap
 
 movies/Pods/Target Support Files/Pods-movies/Pods-movies.release.xcconfig
+
+movies/Pods/Alamofire/LICENSE
+
+movies/Pods/Alamofire/README.md
+
+movies/Pods/Alamofire/Source/AFError.swift
+
+movies/Pods/Alamofire/Source/Alamofire.swift
+
+movies/Pods/Alamofire/Source/AlamofireExtended.swift
+
+movies/Pods/Alamofire/Source/AuthenticationInterceptor.swift
+
+movies/Pods/Alamofire/Source/CachedResponseHandler.swift
+
+movies/Pods/Alamofire/Source/Combine.swift
+
+movies/Pods/Alamofire/Source/Concurrency.swift
+
+movies/Pods/Alamofire/Source/DispatchQueue\+Alamofire.swift
+
+movies/Pods/Alamofire/Source/EventMonitor.swift
+
+movies/Pods/Alamofire/Source/HTTPHeaders.swift
+
+movies/Pods/Alamofire/Source/HTTPMethod.swift
+
+movies/Pods/Alamofire/Source/MultipartFormData.swift
+
+movies/Pods/Alamofire/Source/MultipartUpload.swift
+
+movies/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+
+movies/Pods/Alamofire/Source/Notifications.swift
+
+movies/Pods/Alamofire/Source/OperationQueue\+Alamofire.swift
+
+movies/Pods/Alamofire/Source/ParameterEncoder.swift
+
+movies/Pods/Alamofire/Source/ParameterEncoding.swift
+
+movies/Pods/Alamofire/Source/Protected.swift
+
+movies/Pods/Alamofire/Source/RedirectHandler.swift
+
+movies/Pods/Alamofire/Source/Request.swift
+
+movies/Pods/Alamofire/Source/RequestInterceptor.swift
+
+movies/Pods/Alamofire/Source/RequestTaskMap.swift
+
+movies/Pods/Alamofire/Source/Response.swift
+
+movies/Pods/Alamofire/Source/ResponseSerialization.swift
+
+movies/Pods/Alamofire/Source/Result\+Alamofire.swift
+
+movies/Pods/Alamofire/Source/RetryPolicy.swift
+
+movies/Pods/Alamofire/Source/ServerTrustEvaluation.swift
+
+movies/Pods/Alamofire/Source/Session.swift
+
+movies/Pods/Alamofire/Source/SessionDelegate.swift
+
+movies/Pods/Alamofire/Source/StringEncoding\+Alamofire.swift
+
+movies/Pods/Alamofire/Source/URLConvertible\+URLRequestConvertible.swift
+
+movies/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+
+movies/Pods/Alamofire/Source/URLRequest\+Alamofire.swift
+
+movies/Pods/Alamofire/Source/URLSessionConfiguration\+Alamofire.swift
+
+movies/Pods/Alamofire/Source/Validation.swift
+
+movies/Pods/Pods.xcodeproj/xcuserdata/asilturk.xcuserdatad/xcschemes/Alamofire.xcscheme
+
+movies/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+
+movies/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+
+movies/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+
+movies/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+
+movies/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+
+movies/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+
+movies/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
