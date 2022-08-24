@@ -12,7 +12,7 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-struct Json4Swift_Base : Codable {
+struct DetailResponse : Codable {
 	let adult : Bool?
 	let backdrop_path : String?
 	let belongs_to_collection : Belongs_to_collection?

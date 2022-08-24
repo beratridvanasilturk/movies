@@ -10,7 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    var detailResponse: Json4Swift_Base?
+    var detailResponse: DetailResponse?
     var filmId: Int!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class DetailViewController: UIViewController {
         AF.request(url!, method: .get).response { result in
             guard let data = result.data else { return }
             let jsonDecoder = JSONDecoder()
-            self.detailResponse = try? jsonDecoder.decode(Json4Swift_Base.self, from: data)
+            self.detailResponse = try? jsonDecoder.decode(DetailResponse.self, from: data)
             self.prepareUI()
         }
     }
