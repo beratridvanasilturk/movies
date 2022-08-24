@@ -1,0 +1,178 @@
+
+movies/Pods/.DS_Store
+
+movies/Pods/Kingfisher/LICENSE
+
+movies/Pods/Kingfisher/README.md
+
+movies/Pods/Kingfisher/Sources/Cache/CacheSerializer.swift
+
+movies/Pods/Kingfisher/Sources/Cache/DiskStorage.swift
+
+movies/Pods/Kingfisher/Sources/Cache/FormatIndicatedCacheSerializer.swift
+
+movies/Pods/Kingfisher/Sources/Cache/ImageCache.swift
+
+movies/Pods/Kingfisher/Sources/Cache/MemoryStorage.swift
+
+movies/Pods/Kingfisher/Sources/Cache/Storage.swift
+
+movies/Pods/Kingfisher/Sources/Extensions/CPListItem\+Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/Extensions/ImageView\+Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/Extensions/NSButton\+Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/Extensions/NSTextAttachment\+Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/Extensions/TVMonogramView\+Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/Extensions/UIButton\+Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/Extensions/WKInterfaceImage\+Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift
+
+movies/Pods/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift
+
+movies/Pods/Kingfisher/Sources/General/ImageSource/Resource.swift
+
+movies/Pods/Kingfisher/Sources/General/ImageSource/Source.swift
+
+movies/Pods/Kingfisher/Sources/General/KF.swift
+
+movies/Pods/Kingfisher/Sources/General/KFOptionsSetter.swift
+
+movies/Pods/Kingfisher/Sources/General/Kingfisher.swift
+
+movies/Pods/Kingfisher/Sources/General/KingfisherError.swift
+
+movies/Pods/Kingfisher/Sources/General/KingfisherManager.swift
+
+movies/Pods/Kingfisher/Sources/General/KingfisherOptionsInfo.swift
+
+movies/Pods/Kingfisher/Sources/Image/Filter.swift
+
+movies/Pods/Kingfisher/Sources/Image/GIFAnimatedImage.swift
+
+movies/Pods/Kingfisher/Sources/Image/GraphicsContext.swift
+
+movies/Pods/Kingfisher/Sources/Image/Image.swift
+
+movies/Pods/Kingfisher/Sources/Image/ImageDrawing.swift
+
+movies/Pods/Kingfisher/Sources/Image/ImageFormat.swift
+
+movies/Pods/Kingfisher/Sources/Image/ImageProcessor.swift
+
+movies/Pods/Kingfisher/Sources/Image/ImageProgressive.swift
+
+movies/Pods/Kingfisher/Sources/Image/ImageTransition.swift
+
+movies/Pods/Kingfisher/Sources/Image/Placeholder.swift
+
+movies/Pods/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift
+
+movies/Pods/Kingfisher/Sources/Networking/ImageDataProcessor.swift
+
+movies/Pods/Kingfisher/Sources/Networking/ImageDownloader.swift
+
+movies/Pods/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift
+
+movies/Pods/Kingfisher/Sources/Networking/ImageModifier.swift
+
+movies/Pods/Kingfisher/Sources/Networking/ImagePrefetcher.swift
+
+movies/Pods/Kingfisher/Sources/Networking/RedirectHandler.swift
+
+movies/Pods/Kingfisher/Sources/Networking/RequestModifier.swift
+
+movies/Pods/Kingfisher/Sources/Networking/RetryStrategy.swift
+
+movies/Pods/Kingfisher/Sources/Networking/SessionDataTask.swift
+
+movies/Pods/Kingfisher/Sources/Networking/SessionDelegate.swift
+
+movies/Pods/Kingfisher/Sources/SwiftUI/ImageBinder.swift
+
+movies/Pods/Kingfisher/Sources/SwiftUI/ImageContext.swift
+
+movies/Pods/Kingfisher/Sources/SwiftUI/KFAnimatedImage.swift
+
+movies/Pods/Kingfisher/Sources/SwiftUI/KFImage.swift
+
+movies/Pods/Kingfisher/Sources/SwiftUI/KFImageOptions.swift
+
+movies/Pods/Kingfisher/Sources/SwiftUI/KFImageProtocol.swift
+
+movies/Pods/Kingfisher/Sources/SwiftUI/KFImageRenderer.swift
+
+movies/Pods/Kingfisher/Sources/Utility/Box.swift
+
+movies/Pods/Kingfisher/Sources/Utility/CallbackQueue.swift
+
+movies/Pods/Kingfisher/Sources/Utility/Delegate.swift
+
+movies/Pods/Kingfisher/Sources/Utility/ExtensionHelpers.swift
+
+movies/Pods/Kingfisher/Sources/Utility/Result.swift
+
+movies/Pods/Kingfisher/Sources/Utility/Runtime.swift
+
+movies/Pods/Kingfisher/Sources/Utility/SizeExtensions.swift
+
+movies/Pods/Kingfisher/Sources/Utility/String\+MD5.swift
+
+movies/Pods/Kingfisher/Sources/Views/AnimatedImageView.swift
+
+movies/Pods/Kingfisher/Sources/Views/Indicator.swift
+
+movies/Pods/Manifest.lock
+
+movies/Pods/Pods.xcodeproj/project.pbxproj
+
+movies/Pods/Pods.xcodeproj/xcuserdata/asilturk.xcuserdatad/xcschemes/Kingfisher.xcscheme
+
+movies/Pods/Pods.xcodeproj/xcuserdata/asilturk.xcuserdatad/xcschemes/Pods-movies.xcscheme
+
+movies/Pods/Pods.xcodeproj/xcuserdata/asilturk.xcuserdatad/xcschemes/xcschememanagement.plist
+
+movies/Pods/Target Support Files/Kingfisher/Kingfisher-dummy.m
+
+movies/Pods/Target Support Files/Kingfisher/Kingfisher-Info.plist
+
+movies/Pods/Target Support Files/Kingfisher/Kingfisher-prefix.pch
+
+movies/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h
+
+movies/Pods/Target Support Files/Kingfisher/Kingfisher.debug.xcconfig
+
+movies/Pods/Target Support Files/Kingfisher/Kingfisher.modulemap
+
+movies/Pods/Target Support Files/Kingfisher/Kingfisher.release.xcconfig
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-acknowledgements.markdown
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-acknowledgements.plist
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-dummy.m
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-frameworks-Debug-input-files.xcfilelist
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-frameworks-Debug-output-files.xcfilelist
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-frameworks-Release-input-files.xcfilelist
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-frameworks-Release-output-files.xcfilelist
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-frameworks.sh
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-Info.plist
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies-umbrella.h
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies.debug.xcconfig
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies.modulemap
+
+movies/Pods/Target Support Files/Pods-movies/Pods-movies.release.xcconfig
