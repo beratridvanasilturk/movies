@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA5852BF28B62F900039245F /* DenemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5852BE28B62F900039245F /* DenemeViewController.swift */; };
+		EA5852C328B634720039245F /* IkinciDenemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5852C228B634720039245F /* IkinciDenemeViewController.swift */; };
+		EA9143FD28B587EE005D97AA /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9143FC28B587EE005D97AA /* FilmsViewController.swift */; };
 		EAFFB10E28B51AD5008050AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFFB10D28B51AD5008050AE /* AppDelegate.swift */; };
 		EAFFB11028B51AD5008050AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFFB10F28B51AD5008050AE /* SceneDelegate.swift */; };
-		EAFFB11228B51AD5008050AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFFB11128B51AD5008050AE /* ViewController.swift */; };
 		EAFFB11528B51AD5008050AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFFB11328B51AD5008050AE /* Main.storyboard */; };
 		EAFFB11728B51ADA008050AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFFB11628B51ADA008050AE /* Assets.xcassets */; };
 		EAFFB11A28B51ADA008050AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFFB11828B51ADA008050AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA5852BE28B62F900039245F /* DenemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeViewController.swift; sourceTree = "<group>"; };
+		EA5852C228B634720039245F /* IkinciDenemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkinciDenemeViewController.swift; sourceTree = "<group>"; };
+		EA9143FC28B587EE005D97AA /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		EAFFB10A28B51AD5008050AE /* movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFFB10D28B51AD5008050AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFFB10F28B51AD5008050AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EAFFB11128B51AD5008050AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAFFB11428B51AD5008050AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAFFB11628B51ADA008050AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAFFB11928B51ADA008050AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +62,10 @@
 			children = (
 				EAFFB10D28B51AD5008050AE /* AppDelegate.swift */,
 				EAFFB10F28B51AD5008050AE /* SceneDelegate.swift */,
-				EAFFB11128B51AD5008050AE /* ViewController.swift */,
 				EAFFB11328B51AD5008050AE /* Main.storyboard */,
+				EA5852C228B634720039245F /* IkinciDenemeViewController.swift */,
+				EA5852BE28B62F900039245F /* DenemeViewController.swift */,
+				EA9143FC28B587EE005D97AA /* FilmsViewController.swift */,
 				EAFFB11628B51ADA008050AE /* Assets.xcassets */,
 				EAFFB11828B51ADA008050AE /* LaunchScreen.storyboard */,
 				EAFFB11B28B51ADA008050AE /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAFFB11228B51AD5008050AE /* ViewController.swift in Sources */,
 				EAFFB10E28B51AD5008050AE /* AppDelegate.swift in Sources */,
+				EA9143FD28B587EE005D97AA /* FilmsViewController.swift in Sources */,
+				EA5852C328B634720039245F /* IkinciDenemeViewController.swift in Sources */,
+				EA5852BF28B62F900039245F /* DenemeViewController.swift in Sources */,
 				EAFFB11028B51AD5008050AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
