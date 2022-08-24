@@ -31,7 +31,15 @@ extension FilmsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "FilmsCell", for: indexPath)
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FilmsCell", for: indexPath) as! FilmTableViewCell
+        
+        
+        let imageName = ["a","b","c","d","e","f","g","h","j","theGodfather"].randomElement() ?? ""
+        
+        cell.filmImageView?.image = UIImage(named: imageName)
+        
+        
         return cell
     }
     

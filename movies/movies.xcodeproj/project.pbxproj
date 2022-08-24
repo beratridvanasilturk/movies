@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA5852BF28B62F900039245F /* DenemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5852BE28B62F900039245F /* DenemeViewController.swift */; };
-		EA5852C328B634720039245F /* IkinciDenemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5852C228B634720039245F /* IkinciDenemeViewController.swift */; };
+		EA5852C528B6373D0039245F /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5852C428B6373D0039245F /* FilmTableViewCell.swift */; };
 		EA9143FD28B587EE005D97AA /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9143FC28B587EE005D97AA /* FilmsViewController.swift */; };
 		EAFFB10E28B51AD5008050AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFFB10D28B51AD5008050AE /* AppDelegate.swift */; };
 		EAFFB11028B51AD5008050AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFFB10F28B51AD5008050AE /* SceneDelegate.swift */; };
@@ -18,8 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA5852BE28B62F900039245F /* DenemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeViewController.swift; sourceTree = "<group>"; };
-		EA5852C228B634720039245F /* IkinciDenemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkinciDenemeViewController.swift; sourceTree = "<group>"; };
+		EA5852C428B6373D0039245F /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
 		EA9143FC28B587EE005D97AA /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
 		EAFFB10A28B51AD5008050AE /* movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFFB10D28B51AD5008050AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA5852CE28B6468F0039245F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA9143FC28B587EE005D97AA /* FilmsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA5852CF28B646B40039245F /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EA5852C428B6373D0039245F /* FilmTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		EAFFB10128B51AD5008050AE = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +77,8 @@
 				EAFFB10D28B51AD5008050AE /* AppDelegate.swift */,
 				EAFFB10F28B51AD5008050AE /* SceneDelegate.swift */,
 				EAFFB11328B51AD5008050AE /* Main.storyboard */,
-				EA5852C228B634720039245F /* IkinciDenemeViewController.swift */,
-				EA5852BE28B62F900039245F /* DenemeViewController.swift */,
-				EA9143FC28B587EE005D97AA /* FilmsViewController.swift */,
+				EA5852CF28B646B40039245F /* TableViewCells */,
+				EA5852CE28B6468F0039245F /* ViewControllers */,
 				EAFFB11628B51ADA008050AE /* Assets.xcassets */,
 				EAFFB11828B51ADA008050AE /* LaunchScreen.storyboard */,
 				EAFFB11B28B51ADA008050AE /* Info.plist */,
@@ -146,8 +159,7 @@
 			files = (
 				EAFFB10E28B51AD5008050AE /* AppDelegate.swift in Sources */,
 				EA9143FD28B587EE005D97AA /* FilmsViewController.swift in Sources */,
-				EA5852C328B634720039245F /* IkinciDenemeViewController.swift in Sources */,
-				EA5852BF28B62F900039245F /* DenemeViewController.swift in Sources */,
+				EA5852C528B6373D0039245F /* FilmTableViewCell.swift in Sources */,
 				EAFFB11028B51AD5008050AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
