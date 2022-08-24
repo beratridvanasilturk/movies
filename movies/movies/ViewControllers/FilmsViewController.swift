@@ -15,13 +15,6 @@ class FilmsViewController: UIViewController {
 
     var response: Response?
     
-    let films = [
-        "https://i.pinimg.com/736x/6c/e6/7f/6ce67f7b4fe02b66dc06187ed658000f--serena--bradley-cooper.jpg",
-        "https://www.hdmekani.com/rsm/images/56308041452025876161.jpg",
-        "https://tr.web.img2.acsta.net/medias/nmedia/18/89/83/45/20175397.jpg",
-        "https://cdn-0.tvprofil.com/img/covers/img266041-tv2457493.jpg",
-        "https://pbs.twimg.com/media/CMX5xkRWgAAEggJ.png:large" ]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -52,6 +45,15 @@ extension FilmsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 300
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedItem = response?.results?[indexPath.row]
+        let selectedId = selectedItem?.id
+        let destination = DetailViewController()
+        destination.filmId = selectedId
+        show(destination, sender: nil)
+        
+        print(selectedId)
+    }
 }
 
 extension FilmsViewController: UITableViewDataSource {
@@ -63,7 +65,8 @@ extension FilmsViewController: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "FilmsCell", for: indexPath) as! FilmTableViewCell
         let model = response?.results?[indexPath.row]
-        let url = URL(string: films.randomElement()!)!
+        let urlString = "https://image.tmdb.org/t/p/w500/\(model?.backdrop_path ?? "")"
+        let url = URL(string: urlString)!
         cell.filmImageView?.kf.setImage(with: url)
         
         cell.descriptionLabel?.text = model?.overview
