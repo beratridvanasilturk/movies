@@ -10,6 +10,14 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var orginalLangLabel: UILabel!
+    @IBOutlet weak var voteAvarageLabel: UILabel!
+    @IBOutlet weak var imdbLabel: UILabel!
+    
+    
     var detailResponse: DetailResponse?
     var filmId: Int!
     override func viewDidLoad() {

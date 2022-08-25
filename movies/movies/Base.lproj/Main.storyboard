@@ -146,6 +146,14 @@
                         <viewLayoutGuide key="safeArea" id="3Nu-gL-4uA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="PeO-33-Ypt" id="ojr-8M-iWo"/>
+                        <outlet property="imageView" destination="mE3-vh-RcO" id="jHg-v9-r4D"/>
+                        <outlet property="imdbLabel" destination="Cla-Vp-JwD" id="9gu-xF-RFo"/>
+                        <outlet property="orginalLangLabel" destination="1Rj-dD-wk9" id="MMR-Jo-T5k"/>
+                        <outlet property="titleLabel" destination="hHh-SQ-8Do" id="FlI-bP-7Xe"/>
+                        <outlet property="voteAvarageLabel" destination="ulV-WX-AT8" id="6d6-60-2Y5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2l-Mp-bYx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
