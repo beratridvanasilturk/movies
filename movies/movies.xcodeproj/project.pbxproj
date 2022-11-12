@@ -16,6 +16,8 @@
 		EA5CB6CB28B6A16800416C9C /* Production_companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5CB6C528B6A16800416C9C /* Production_companies.swift */; };
 		EA5CB6CC28B6A16800416C9C /* Spoken_languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5CB6C628B6A16800416C9C /* Spoken_languages.swift */; };
 		EA5CB6CD28B6A16800416C9C /* Production_countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5CB6C728B6A16800416C9C /* Production_countries.swift */; };
+		EA6AFDDD28B95FFE0056F49E /* SmileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AFDDC28B95FFE0056F49E /* SmileViewController.swift */; };
+		EA6AFDDF28B964000056F49E /* SmileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AFDDE28B964000056F49E /* SmileTableViewCell.swift */; };
 		EA9143FD28B587EE005D97AA /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9143FC28B587EE005D97AA /* FilmsViewController.swift */; };
 		EADD576228B68EAA00C72ABB /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD576028B68EAA00C72ABB /* Results.swift */; };
 		EADD576328B68EAA00C72ABB /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADD576128B68EAA00C72ABB /* Response.swift */; };
@@ -38,6 +40,8 @@
 		EA5CB6C528B6A16800416C9C /* Production_companies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production_companies.swift; sourceTree = "<group>"; };
 		EA5CB6C628B6A16800416C9C /* Spoken_languages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spoken_languages.swift; sourceTree = "<group>"; };
 		EA5CB6C728B6A16800416C9C /* Production_countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production_countries.swift; sourceTree = "<group>"; };
+		EA6AFDDC28B95FFE0056F49E /* SmileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileViewController.swift; sourceTree = "<group>"; };
+		EA6AFDDE28B964000056F49E /* SmileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileTableViewCell.swift; sourceTree = "<group>"; };
 		EA9143FC28B587EE005D97AA /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		EADD576028B68EAA00C72ABB /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		EADD576128B68EAA00C72ABB /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		EA5852CE28B6468F0039245F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EA6AFDDC28B95FFE0056F49E /* SmileViewController.swift */,
 				EA9143FC28B587EE005D97AA /* FilmsViewController.swift */,
 				EA5CB6B428B69B4B00416C9C /* DetailViewController.swift */,
 			);
@@ -91,6 +96,7 @@
 		EA5852CF28B646B40039245F /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				EA6AFDDE28B964000056F49E /* SmileTableViewCell.swift */,
 				EA5852C428B6373D0039245F /* FilmTableViewCell.swift */,
 			);
 			path = TableViewCells;
@@ -269,11 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAFFB10E28B51AD5008050AE /* AppDelegate.swift in Sources */,
+				EA6AFDDD28B95FFE0056F49E /* SmileViewController.swift in Sources */,
 				EA5CB6CB28B6A16800416C9C /* Production_companies.swift in Sources */,
 				EA9143FD28B587EE005D97AA /* FilmsViewController.swift in Sources */,
 				EA5CB6CC28B6A16800416C9C /* Spoken_languages.swift in Sources */,
 				EA5CB6C928B6A16800416C9C /* DetailResponse.swift in Sources */,
 				EA5852C528B6373D0039245F /* FilmTableViewCell.swift in Sources */,
+				EA6AFDDF28B964000056F49E /* SmileTableViewCell.swift in Sources */,
 				EA5CB6CD28B6A16800416C9C /* Production_countries.swift in Sources */,
 				EA5CB6C828B6A16800416C9C /* Genres.swift in Sources */,
 				EAFFB11028B51AD5008050AE /* SceneDelegate.swift in Sources */,
